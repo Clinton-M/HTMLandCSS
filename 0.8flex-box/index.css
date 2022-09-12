@@ -1,0 +1,35 @@
+.flex{
+    background-color: yellow;
+    height: 300px;
+    display: flex;
+    justify-content: space-around; /*espacio entre los elementos*/
+    /* align-items: center; /*alineacion vertical
+        */
+    /* flex-direction: column; alineacion vertical */
+
+    /* flex-wrap: wrap; */
+    /*flex-wrap: wrap; alineacion horizontal */
+   /*por defecto*/
+   /* align-items: stretch;o todo el contenedor */
+    align-items: center;
+
+}
+
+.contenifo1{
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+}
+.contenifo2{
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+}
+.contenifo3{
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+}

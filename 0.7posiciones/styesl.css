@@ -1,0 +1,58 @@
+
+
+
+div{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.relative{
+    position: relative;
+    /*posicionar en realcion a otra etiqueta*/
+    /*su medida no se acomoda sino solo respeta
+    la medita que se otorno para la ubicaion
+    mas no para adaptarse*/
+    left: 80px;
+    top: 10px; 
+    background-color: aqua;
+    /*z-index:
+perimite decir quién es el primero en ser pintado*/
+    z-index: 1;
+
+}
+
+.fixed{
+    position: fixed;
+    right: 10px;
+    top: 5px;
+    background-color: aqua;
+    /*se queda estatico en la pantalla independiente del scroll
+    elimina el espacio sobrante*/
+}
+
+.absoluto{
+    position: absolute;
+    /*posicionar en absoluto*/
+    /*su elemento padre es body*/
+
+    /*posicionar un elent dentro de otro 
+    relativo(abosoluto)*/
+    top: 120px;
+    background-color: bisque;
+    
+    
+}
+.sticky{
+    margin-top: 100px;
+    background: purple;
+    position: sticky;
+    top: 0;
+    /*se queda despues del scroll
+    pegajoso*/
+    
+}
+
+
+
+

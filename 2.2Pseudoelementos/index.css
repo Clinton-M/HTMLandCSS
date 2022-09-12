@@ -1,0 +1,33 @@
+.contenedor{
+    width: 300px;
+    height: auto;
+    background-color: aquamarine;
+}
+
+.parrafo::before{
+    content:"<<";
+    
+}
+.parrafo::after{
+    content:">>";
+    
+}
+.parrafo::selection{
+    background-color: #f00;
+    color: white;
+}
+
+.parrafo::first-line{
+    color: blue;
+    font-size: xx-large;
+}
+
+.let::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+
+ul li::marker{
+    color: #f00;
+}
+

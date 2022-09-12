@@ -1,0 +1,36 @@
+
+*,p{
+    font-size: 28px;
+}
+.colores{
+    color: lightseagreen;
+}
+
+.color_exadecimal{
+    color: #00FF00;
+}
+.color_rgb{
+    /* color: red, green , blue*/
+    color: rgb(50, 100, 1);
+}
+
+
+.color_rgba{
+    /* color: red, green , blue, alpha(opacidad)*/
+    color: rgba(50, 100, 1, 0.5);
+}
+
+/*----------------------backgroud color-----------------------*/
+.caja{
+    background-color: rgb(32, 16, 16);
+    
+}
+/*import img url*/
+.caja2{
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+}
+/*import local img*/
+
+.caja3{
+    background-image: url(./img.png);
+}

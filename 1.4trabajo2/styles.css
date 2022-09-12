@@ -1,0 +1,55 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    color: tomato;
+    cursor: pointer;
+}
+
+.img{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    filter: saturate(0);
+    border-radius: 20px;
+}
+
+.img:hover{
+    filter: saturate(1);
+}
+
+.container{
+    margin-top: 3em;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 5em;
+    justify-content: space-around;
+    
+}
+
+.nombre div a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 15px;
+    transition: 0.5 ease;
+    border-radius: 5px;
+}
+.nombre div a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease;
+}
+.nombre{
+    margin-top: 3em;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 5em;
+    justify-content: space-around;
+    
+}

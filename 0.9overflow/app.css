@@ -1,0 +1,44 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    padding: 3px;
+
+    /*para que no sobresalga*/
+    overflow: hidden;  /*para que todo lo que sobresalga se oculte*/
+}
+
+.container2{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    padding: 3px;
+
+    /*para ver todo en caja*/
+    overflow: scroll;  
+}
+
+.container3{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    padding: 3px;
+    /*defecto*/
+    overflow: visible;
+
+    
+}
+.container4{
+    
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    padding: 3px;
+    /*optimiza el scroll en las cordenadas*/
+    overflow: auto;
+    /* overflow-y: ;
+    overflow-x: ; */
+    
+
+    
+}

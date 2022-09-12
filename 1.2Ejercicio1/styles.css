@@ -1,0 +1,12 @@
+ul #elemento-1{
+    color: red;
+}
+
+
+ol>li:nth-child(1) {
+    color: red;
+}
+
+#dia-1,#elemento-1{
+    font-size: 2rem;
+}

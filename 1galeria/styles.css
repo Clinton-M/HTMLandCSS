@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.img{
+    width:700px;
+    height:200px;
+    height: auto;
+    /*de 0 a 1*/
+    opacity: 0.5;
+
+}
+
+.img{
+    filter: saturate(0);
+}
+
+.img:hover{
+    opacity: 1;
+    filter: saturate(1);
+}
+
+.galeria{
+    display: wrap;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+}
+.galeria > img{
+    width: 350px;
+}

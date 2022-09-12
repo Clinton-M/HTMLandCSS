@@ -1,0 +1,27 @@
+p:hover{
+    color: red;
+    cursor: pointer;
+    font-size: medium;
+}
+.listado ul{
+    list-style: none;
+    color: red;
+}
+.listado ul li:first-child{ /*para el primer elemento*/
+    color: blue;
+}
+
+/*links*/
+a:link{
+    color: palevioletred;
+}
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: green;
+}
+a:active{
+    color: red;
+}

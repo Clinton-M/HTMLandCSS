@@ -1,0 +1,41 @@
+.contenedor{
+    width: 100%;
+    height: 50%;
+    background-color:slategrey;
+
+
+    position: absolute; /*para que las cajas internas respeten su medida*/
+}
+.caja{
+    width: 300px;      /*ancho*/
+    height: 100px;      /*alto*/
+    background-color: turquoise;
+
+    /*border*/
+    border: 5px solid white;
+
+    /*padding*/
+    padding: 10px; /*medida interna de la caka  generico*/ 
+
+    /*margen*/
+    margin: 15px; /*medida externa de la caja gener*/
+
+
+    
+}
+.caja2{
+    width: 200px;      /*ancho*/
+    height: 200px;      /*alto*/
+
+    background-color: red;
+
+    /*border*/
+    border: 5px solid rgb(17, 227, 189);
+
+    /*padding*/
+    padding: 10px 20px; /*arriba abajo 10pc y contados 20px*/
+
+    /*margen*/
+    margin-top: 20px; /*medida externa de la caja  solo arriba ->top*/
+
+}

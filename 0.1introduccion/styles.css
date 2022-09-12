@@ -1,0 +1,37 @@
+/*
+
+h1 = selector de etiqueta --< cambia el color...  toda la etiqueta h1
+
+
+{...} = propiedades   
+----------> propiedad:valor
+*/ 
+
+/* (*) selector universal */
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: tomato;
+    text-align: center; /* centrar el texto */
+}
+
+p{
+    color: blue;  /*tipo color: valor azul*/
+    font-size: 25px; /*para el tamaño de letra*/
+   
+}
+/* (#) para los selectores de id */
+#primera__noticia{
+    color: green;
+}
+
+/* (.) para los selectores de clase */
+.segunda__noticia{
+    color: purple;
+}
+/*juntado dos selecores ->(1,2)*/
+.segunda__noticia, #primera__noticia{
+    text-decoration: underline; /*subrayar el texto*/
+}

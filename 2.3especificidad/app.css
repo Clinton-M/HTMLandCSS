@@ -1,0 +1,27 @@
+h1{
+    color: red;
+    
+}
+
+.clase_h1{
+    color: salmon;
+    
+}
+#h1{
+    color: green;  
+    
+}
+
+p{
+    color: blue !important;
+}
+p{
+    color: red; /*no aplicara*/
+}
+
+/*1,0,0        sera primero*/  
+/*0,1,0        sera segundo*/  
+
+/*si el estilo esta en html sera el que primero*/
+
+/*!important se queda como el primero*/

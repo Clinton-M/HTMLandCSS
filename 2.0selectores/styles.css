@@ -1,0 +1,15 @@
+
+/*para todos*/
+p{
+    color: red;
+}
+
+/*para todos los elementos de una clase*/
+.main .p__contenedor{
+    color: blue;
+}
+
+/*anidando*/
+.container #btn__contenedor{
+    background-color: green;
+}

@@ -1,0 +1,20 @@
+*,p{
+    font-size: 28px;
+}
+.colores{
+    color: lightseagreen;
+}
+
+.color_exadecimal{
+    color: #00FF00;
+}
+.color_rgb{
+    /* color: red, green , blue*/
+    color: rgb(50, 100, 1);
+}
+
+
+.color_rgba{
+    /* color: red, green , blue, alpha(opacidad)*/
+    color: rgba(50, 100, 1, 0.5);
+}
